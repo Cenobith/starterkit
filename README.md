@@ -4,7 +4,9 @@ Cenobith RoR Starter Kit
 ## Overview
 
 This is skeleton for creating RoR Apps
+
 It contains basic Bootstrap layout and profile functionality
+
 Two languages localization - English and Russian
 
 * Ruby 2.2
@@ -19,6 +21,7 @@ Two languages localization - English and Russian
 ## Initialization
 
 Change application title in config/application.rb
+
 Find and replace 'Starterkit' in all sources to your app name
 
 ## Database creation
