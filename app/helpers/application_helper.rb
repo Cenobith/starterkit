@@ -1,6 +1,6 @@
 module ApplicationHelper
   def full_title(page_title)
-    base_title = "Cenobith Starter Kit"
+    base_title = Starterkit::Application.config.title
     if page_title.empty?
       base_title
     else
