@@ -49,3 +49,7 @@ en:
   update_profile: "Update your profile"
   change: "change"
   add: "Add"
+  profile_created: "Profile created"
+  profile: "Profile"
+  image: "Image"
+  admin_panel: "Admin"

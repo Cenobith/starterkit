@@ -3,15 +3,17 @@ Cenobith RoR Starter Kit
 
 ## Overview
 
-This is basic skeleton for creating RoR Apps
+This is skeleton for creating RoR Apps
+It contains basic Bootstrap layout and profile functionality
 
 * Ruby 2.2
 * Rails 4.2
-* Bootstrap
+* Bootstrap 3
 * Devise
 * PaperClip
 * SimpleForm
 * RailsAdmin
+* Puma webserver
 
 ## Database creation
 

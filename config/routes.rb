@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
-
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
+  resources :profiles
+
+  get 'profiles/new'
+  post 'profiles/new'
+
+  get 'static_pages/home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

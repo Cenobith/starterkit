@@ -15,17 +15,17 @@ class ApplicationController < ActionController::Base
     logger.debug "* Locale set to '#{I18n.locale}'"
   end
 
-#  def after_sign_in_path_for(resource_or_scope)
-#    if resource_or_scope.is_a?(User)
-#      if current_user.profile.nil?
-#        new_profile_path
-#      else
-#        super
-#      end
-#    else
-#      super
-#    end
-#  end
+  def after_sign_in_path_for(resource_or_scope)
+    if resource_or_scope.is_a?(User)
+      if current_user.profile.nil?
+        new_profile_path
+      else
+        super
+      end
+    else
+      super
+    end
+  end
 
   private
   def extract_locale_from_accept_language_header

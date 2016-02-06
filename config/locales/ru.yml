@@ -29,3 +29,14 @@ ru:
   update_profile: "Редактирование профиля"
   change: "изменить"
   add: "Добавить"
+  profile_created: "Профайл создан"
+  profile: "Профайл"
+  image: "Картинка"
+  admin_panel: "Администрирование"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: "Учетная запись с таким email уже существует"
