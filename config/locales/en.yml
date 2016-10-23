@@ -52,6 +52,11 @@ en:
   profile_created: "Profile created"
   profile: "Profile"
   image: "Image"
+  nick: "Nickname"
+  firstname: "First name"
+  lastname: "Last name"
+  country: "Country"
+  use: "Use"
   admin_panel: "Admin"
   activerecord:
     errors:

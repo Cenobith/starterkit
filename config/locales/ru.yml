@@ -32,6 +32,11 @@ ru:
   profile_created: "Профайл создан"
   profile: "Профайл"
   image: "Картинка"
+  nick: "Псевдоним"
+  firstname: "Имя"
+  lastname: "Фамилия"
+  country: "Страна"
+  use: "Использовать"
   admin_panel: "Администрирование"
   activerecord:
     errors:

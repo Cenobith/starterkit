@@ -9,14 +9,15 @@ It contains basic Bootstrap layout and profile functionality
 
 Two languages localization - English and Russian
 
-* Ruby 2.2
-* Rails 4.2
+* Ruby 2.3
+* Rails 5.0
 * Bootstrap 3
 * Devise
 * PaperClip
 * SimpleForm
 * RailsAdmin
 * Puma webserver
+* RSpec-Guard
 
 ## Initialization
 
