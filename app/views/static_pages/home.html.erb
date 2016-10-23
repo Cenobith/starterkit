@@ -2,6 +2,12 @@
     <div class="row">
       <div class="jumbotron center">
         <h1>Hello, <%= nickname_for(current_user) %>!</h1>
+
+        <% if current_user.profile.nil? %>
+          <%= link_to t('create_profile'), profiles_new_path,
+                      class: "btn btn-large btn-primary", id: "create_profile" %>
+
+        <% end %>
       </div>
     </div>
 <% else %>

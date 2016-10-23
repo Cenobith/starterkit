@@ -24,6 +24,17 @@ describe "Profiles" do
       it { should have_field('Last name')}
       it { should have_field('Country')}
 
+      describe "Skip profile" do
+        before do
+          visit root_path
+        end
+        it { should have_content('Hello, Unnamed!') }
+        it { should have_link("Unnamed", class: 'dropdown-toggle') }
+        it { should have_link("Create profile"), id: "CrProfileMnu" }
+        it { should have_link("Create profile", id: "create_profile", class: 'btn btn-large btn-primary') }
+
+      end
+
       describe "Fill profile" do
         before do
           visit profiles_new_path

@@ -24,6 +24,8 @@
                   <li><%= link_to t('settings'), edit_user_registration_path, id: "SettingsLnk" %></li>
                   <% if !current_user.profile.nil? %>
                       <li><%= link_to t('profile'), edit_profile_path(current_user.profile.id), id: "EditProfile" %></li>
+                  <% else %>
+                    <li><%= link_to t('create_profile'), profiles_new_path, id: "CrProfileMnu" %></li>
                   <% end %>
                   <% if current_user.admin? %>
                       <li><%= link_to t('admin_panel'), rails_admin_path %></li>

@@ -47,6 +47,7 @@ en:
   contacts: "Contacts"
   view_my_profile: "view my profile"
   update_profile: "Update your profile"
+  create_profile: "Create profile"
   change: "change"
   add: "Add"
   profile_created: "Profile created"
