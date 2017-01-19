@@ -28,6 +28,6 @@ test:
   database: starterkit_test
 
 # You can delete this if you will deploy your app to Heroku
-production:
-  <<: *local
-  database: starterkit
+#production:
+# <<: *local
+#  database: starterkit
