@@ -39,6 +39,7 @@ ru:
   country: "Страна"
   use: "Использовать"
   admin_panel: "Администрирование"
+  login: "Войти"
   activerecord:
     errors:
       models:

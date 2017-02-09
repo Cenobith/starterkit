@@ -59,6 +59,7 @@ en:
   country: "Country"
   use: "Use"
   admin_panel: "Admin"
+  login: "Log in"
   activerecord:
     errors:
       messages:
