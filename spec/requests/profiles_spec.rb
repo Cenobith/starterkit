@@ -12,7 +12,7 @@ describe "Profiles" do
 
     describe "sign up process" do
       before do
-        fill_in "Email", with: "testuser@test.com"
+        fill_in "user_email", with: "testuser@test.com"
         fill_in "user_password", with: "testpassword"
         fill_in "user_password_confirmation", with: "testpassword"
         click_button "Sign up"

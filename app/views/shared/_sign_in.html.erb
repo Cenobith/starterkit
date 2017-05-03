@@ -9,8 +9,8 @@
   <div class="modal-body">
     <%= simple_form_for(User.new, url: session_path(:user)) do |f| %>
         <div class="form-inputs">
-          <%= f.input :email, required: false, autofocus: true %>
-          <%= f.input :password, required: false %>
+          <%= f.input :email, required: false, autofocus: true, input_html: { id: "user_email_input" } %>
+          <%= f.input :password, required: false, input_html: { id: "user_password_input" } %>
           <%= f.input :remember_me, as: :boolean if Devise.mappings[:user].rememberable? %>
         </div>
 
@@ -19,7 +19,7 @@
         </div>
     <% end %>
 
-    <!-- %= render "devise/shared/links" % -->
+    <%= link_to "Forgot your password?", new_password_path(:user) %><br />
   </div>
   </div>
   </div>
