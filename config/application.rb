@@ -25,5 +25,6 @@ module Starterkit
 
     # Application title, change it
     config.title = 'Cenobith Starter Kit'
+    config.autoload_paths += %W(#{config.root}/lib)
   end
 end
