@@ -21,7 +21,7 @@ Two languages localization - English and Russian
 
 ## Initialization
 
-Change application title in config/application.rb
+Change application title in config/application.rb and logos in app/assets/images
 
 Find and replace 'Starterkit' in all sources to your app name
 
